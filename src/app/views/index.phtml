@@ -1,0 +1,44 @@
+<!-- bootstrap included here -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phalcon Tutorial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .carousel-item {
+      height: 50vh;
+    }
+.card {
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.footer-cta {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+.price {
+  color: #263238;
+  font-size: 24px;
+}
+
+.card-title {
+color:#263238
+}
+
+.sale {
+  color: #E53935
+}
+
+.sale-badge {
+  background-color: #E53935
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <?php echo $this->getContent(); ?>
+</div>
+</body>
+</html>
